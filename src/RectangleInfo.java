@@ -11,10 +11,10 @@ public class RectangleInfo {
         double width = scanner.nextDouble();
 
         double area = hight * width;
-
+        double pie = hight + width;
 
         System.out.println("your area is: " + area);
-
+        System.out.println("your perimiter is: " + pie);
 
         scanner.close();
     }
