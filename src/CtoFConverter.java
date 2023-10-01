@@ -3,7 +3,7 @@ public class CtoFConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // user enters price
+        // user enters C
         System.out.println("Enter F to convert to C: ");
         double celsius = scanner.nextDouble();
 
